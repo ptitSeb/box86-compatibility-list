@@ -31,6 +31,9 @@ Also, don't repport the missing `_ZGTtnaj` and `_ZGTtdlPv` symbol as well as the
 ```
 
 
+### Tested on
+<!-- Machine on which it's has been tested on (like RPi4, OpenPandora, Odroid XU4...) -->
+
 ### Status
 **Previous behavior:** 
 <!-- If there is no known previous behavior (e.g. you're creating the issue) just put 'None reported' -->
