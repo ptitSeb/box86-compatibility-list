@@ -1,0 +1,84 @@
+name: Compatibility report
+description: A template to report game/software compatibilities
+title: "GAME NAME HERE"
+labels: []
+assignees: ["ptitSeb"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Description
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Provide a simple description of what happens during the emulation
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ### Tested on
+  - type: textarea
+    id: tested_on
+    attributes:
+      label: Tested on
+      description: Machine on which it's has been tested on (like RPi4, OpenPandora, Odroid XU4..
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ### Status
+        **Previous behavior:** 
+  - type: textarea
+    id: previous_behavior
+    attributes:
+      label: Previous behavior
+      description: If there is no known previous behavior (e.g. you're creating the issue) just put 'None reported'
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        **Current behavior:**
+  - type: textarea
+    id: current_behavior
+    attributes:
+      label: Current behavior
+      description: Can be similar to your desciption, just shorter and more concise
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ### Screenshots
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Graphics, Glitches, 'Test-Case' Messages, etc.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ### OpenGL
+  - type: textarea
+    id: opengl
+    attributes:
+      label: OpenGL
+      description: Did OpenGL is used? If yes, what profile (1.x, 2.x 3.x...). Also, is S3TC/DxTC used?
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ### Additional Information
+  - type: textarea
+    id: additional_information
+    attributes:
+      label: Additional Information
+      description: Any additional information such as configuration or other comments
+    validations:
+      required: true
