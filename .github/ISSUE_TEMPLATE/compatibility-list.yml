@@ -33,9 +33,9 @@ body:
       multiple: true
       description: Check the box for which relevant software you tried using to run the game/software.
       options:
-        Box86
-        Box32
-        Box64
+        - Box86
+        - Box32
+        - Box64
     validations:
       required: true
   - type: markdown
