@@ -26,6 +26,18 @@ body:
       description: Machine on which it's has been tested on (like RPi4, OpenPandora, Odroid XU4..
     validations:
       required: true
+  - type: dropdown
+    id: box_type
+    attributes:
+      label: Tested on Box86, Box32, and/or Box64
+      multiple: true
+      description: Select the Box type you tried using to run the game/software.
+      options:
+        - Box86
+        - Box32
+        - Box64
+    validations:
+      required: true
   - type: markdown
     attributes:
       value: |
